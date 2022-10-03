@@ -63,9 +63,9 @@ function create() {
     if (formError == true) {
         console.log('erreur');
     } else {
-        var users = JSON.parse(localStorage.getItem('aliments')) || []
+        var users = JSON.parse(localStorage.getItem('update')) || []
         users.push(data)
-        localStorage.setItem('aliments', JSON.stringify(users))
+        localStorage.setItem('update', JSON.stringify(users))
         window.location.href = "foodList.html"
 
     }
