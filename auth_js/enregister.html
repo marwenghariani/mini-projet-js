@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page d'enregistrement</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="enregister.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="enregister.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <p class="titre text-center">Créer votre compte</p>
+    <div class="row">
+      <div class="coll=4"></div>
+      <div class="coll">
+        <label for="floatingInput">Nom:</label>
+        <input type="text" class="form-control my-2" id="nom" placeholder="saisie votre nom ici">
+        <div class="invalid-feedback">nom obligatoire</div>
+
+        <label for="floatingInput">Prénom:</label>
+        <input type="text" class="form-control my-2" id="prenom" placeholder="saisie votre prénom ici">
+        <div class="invalid-feedback">prenom obligatoire</div>
+
+        <label for="floatingInput">E-mail</label>
+        <input type="text" class="form-control my-2" id="email" placeholder="saisie votre e-mail ici">
+        <div class="invalid-feedback">email obligatoire</div>
+
+        <label for="floatingInput">Mot de passe:</label>
+        <input type="text" class="form-control  my-2" id="password" placeholder="saisie votre mot de passe ici">
+        <div class="invalid-feedback">mot de passe obligatoire</div>
+
+        <label for="floatingInput">confirmation mot de passe:</label>
+        <input type="text" class="form-control my-2" id="confirm" placeholder="saisie votre mot de passe ici">
+        <div class="invalid-feedback">confirmation obligatoire ou bien confirmation invalid</div>
+
+
+
+
+
+      </div>
+      <div class="d-grid gap-2">
+        <button class="btn btn-success my-4" type="button" id="enregister">s'inscrire</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="enregister.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
